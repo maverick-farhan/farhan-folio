@@ -1,0 +1,60 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+
+    font-family: 'Nunito', sans-serif;
+font-family: 'Redressed', cursive;
+font-family: 'Supermercado One', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.carousel-item{
+    height: 93vh;
+    width: 100%;
+}
+
+.aboutimg{
+    max-width: 10%;
+    min-width: 70%;
+    max-height: 280px;
+}
+
+.paragraph{
+    justify-content: center;
+}
+
+.services img{
+    height: 100%;
+    width: 100%;
+}
+
+.offer{
+    background-color: #a6dcef;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {  } */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { } */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { } */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { } */

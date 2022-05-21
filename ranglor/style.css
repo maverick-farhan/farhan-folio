@@ -1,0 +1,685 @@
+*{
+    margin:0px;padding: 0px;box-sizing: border-box;
+} 
+body::-webkit-scrollbar{
+    display: none;
+}
+#index{
+    font-size: 100%;
+    font-weight: bold;
+    background-color: rgb(235, 229, 240);
+}
+
+
+nav{
+    position: fixed;z-index: 10;
+    width: 100%;height: 15vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:5px solid #7f00f7 ;
+    background-color: rgba(255, 239, 224,0.7);
+    border-left:5px solid #7f00f7;
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.logo-border{position: relative;cursor: pointer;
+    animation-duration: 1s;
+    transition: all 2s ease;
+    background-color: rgb(255, 249, 252);
+    letter-spacing: .15em;
+    padding: 4px;
+    margin-left: 45px;
+    border: 2px solid #7f00f7;
+    color: #7f00f7;
+}
+.logo-border:before{position: absolute;
+    background-color: rgb(255, 233, 205);
+    color: #7f00f7;
+}
+.logo-border:after{position: absolute;
+    background-color: rgb(255, 233, 205);
+    color: #7f00f7;
+}
+
+
+a.home{
+    letter-spacing: .15em;
+    background-color: #7f00f7;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+}
+a.home:hover{
+    background-color: rgb(255, 255, 255);
+    color:#7f00f7;
+    border: 1px solid rgb(73, 1, 121)   ;
+    padding: 7px;
+}
+
+
+
+a{
+    border-radius: 3px;
+    border: 1px solid #7f00f7;
+    letter-spacing: .15em;
+    padding: 7px;
+    text-transform: uppercase;
+    margin: 21px;
+    text-decoration: none;
+    color: #7f00f7;
+}
+
+a:hover{
+    color: whitesmoke;
+    background-color:#7f00f7 ;
+}
+
+
+main#indexmain{
+    background-color: rgb(240, 229, 229);
+    width: 100%;
+    height: 85vh;
+
+}
+/* ------------------------------------ */
+/* jungle starts */
+.jungle{
+    position: absolute;
+    top: 120px;left: 20px;
+    width: 300px;
+    height: 340px;
+    border-radius: 40px;
+}
+.darkjungle{
+    border-radius: -10px;
+    width: 100%;height: 4em;
+    background-color: #001a00;
+}
+.darkgreen{
+
+    width: 100%;height: 4em;
+    border-radius: -10px;
+    background-color: #032b03;
+
+}
+.greengrass{
+    width: 100%;height: 4em;
+    border-radius: -10px;
+    background-color: #3b963b;
+}
+
+.reptiles{
+    width: 100%;height: 4em;
+    border-radius: -10px;
+    background-color: #053a05;
+
+}
+
+
+.sandy{
+    width: 100%;height: 4em;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #dba656;
+
+}
+code{
+    color: #eff5ff;
+    border: 2px solid #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 4px;
+    align-items: center;
+    display: inline-block;margin-left: 200px;margin-top: 20px;
+    justify-content: center;
+    font-size: 20px;
+}
+/* ---------------------------------- */
+/* rose starts */
+.rose{
+    position: absolute;
+    top: 120px;left: 410px;
+    width: 300px;
+    height: 340px;
+    border-radius: 40px;
+}
+
+.darkrose{
+    border-radius:-10px;
+    width: 100%;height: 4em;
+    background-color: #240000;
+}
+
+.liprose{
+    border-radius:-10px;
+    width: 100%;height: 4em;
+    background-color: #830000;
+}
+
+.redrose{
+    border-radius:-10px;
+    width: 100%;height: 4em;
+    background-color: #b32020;
+}
+
+.pinkrose{
+    border-radius:-10px;
+    width: 100%;height: 4em;
+    background-color: #ff3460;
+}
+
+.divinerose{
+    border-radius:0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #ff8b8b;
+}
+/* ------------------------------------- */
+/* mango starts */
+.mango{
+    position: absolute;
+    top: 120px;left: 799px;
+    width: 300px;
+    height: 340px;
+    border-radius: 40px;
+}
+
+.pulpy{
+    border-radius:-10px;
+    width: 100%;height: 4em;
+    background-color: #ffcd43;
+}
+
+.juicy{
+    border-radius:-10px;
+    width: 100%;height: 4em;
+    background-color: #dfb221;
+}
+
+.fade-yellow{
+    border-radius:-10px;
+    width: 100%;height: 4em;
+    background-color: #fcd93e;
+}
+
+.light-yellow{
+    border-radius:-10px;
+    width: 100%;height: 4em;
+    background-color: #ffec82;
+}
+.icy-yellow{
+    border-radius:0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #faf4a7;
+}
+/* ----------------------------------------- */
+/* love starts */
+.lovetangle{
+    position: absolute;
+    top: 120px;left: 1197px;
+    width: 300px;
+    height: 340px;
+}
+
+.heart{
+    width: 100%;height: 4em;
+    background-color: #9c0049;
+}
+
+.love{
+    width: 100%;height: 4em;
+    background-color: #bb1261;
+}
+.intimacy{
+    width: 100%;height: 4em;
+    background-color: #c20583;
+}
+
+.kiss{
+    width: 100%;height: 4em;
+    background-color: #f833b6;
+}
+
+.divinepink{
+    border-radius:0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #ff79b7;
+}
+/* --------------------------------------- */
+/* starts bluish */
+
+.bluish{
+    position: absolute;
+    top: 550px;left: 20px;
+    width: 300px;
+    height: 340px;
+}
+
+.whaleblue{
+    width: 100%;height: 4em;
+    background-color: #000029;
+}
+
+.natureblue{
+    width: 100%;height: 4em;
+    background-color: #010153;
+}
+
+.oceanblue{
+    width: 100%;height: 4em;
+    background-color: #00006e;
+}
+
+.skyblue{
+    width: 100%;height: 4em;
+    background-color: #0000bd;
+}
+
+.divineblue{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #5050f5;
+}
+/* ----------------------------------------- */
+/* starts rainbow */
+.rainbow{
+    position: absolute;
+    top: 550px;left: 410px;
+    width: 300px;
+    height: 340px;
+}
+
+.reddish{
+    width: 100%;height: 4em;
+    background-color: #83180a;
+}
+
+.voilet{
+    width: 100%;height: 4em;
+    background-color: #280049;
+}
+.yellow{
+    width: 100%;height: 4em;
+    background-color: #c0b058;
+}
+
+.pinkish{
+    width: 100%;height: 4em;
+    background-color: #a13478;
+}
+.cream{
+border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #f0cd9c;
+}
+/* ------------------------------------------------- */
+/* starts lollipop */
+.lollipop{
+    position: absolute;
+    top: 550px;left: 799px;
+    width: 300px;
+    height: 340px;
+}
+.tangyorange{
+    width: 100%;height: 4em;
+    background-color: #943b00;
+}
+.tangyvoilet{
+    width: 100%;height: 4em;
+    background-color: #2a1f52;
+}
+
+.tangypink{
+    width: 100%;height: 4em;
+    background-color: #52133a;
+}
+
+.tangymango{
+    width: 100%;height: 4em;
+    background-color: #b89c1f;
+}
+.tangyblue{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #1e1d58;
+}
+
+/* ----------------------------------------------- */
+/* starts barf-gola */
+.barf-gola{
+    position: absolute;
+    top: 550px;left: 1197px;
+    width: 300px;
+    height: 340px;
+}
+.kala-khatta{
+    width: 100%;height: 4em;
+    background-color: #121120;
+}
+
+.aam-khatta{
+    width: 100%;height: 4em;
+    background-color: #dac776;
+}
+
+.tangy-khatta{
+    width: 100%;height: 4em;
+    background-color: #67c07d;
+}
+
+.faluda-khatta{
+    width: 100%;height: 4em;
+    background-color: #cf70b8;
+}
+
+.cola-khatta{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #160a0a;
+}
+/* ------------------------------------------ */
+/* Starts Paradise-ground */
+.paradise-ground{
+    position: absolute;
+    top: 990px;left: 20px;
+    width: 300px;
+    height: 340px;
+}
+
+.ground{
+    width: 100%;height: 4em;
+    background-color: #412c23;
+}
+
+.grass{
+    width: 100%;height: 4em;
+    background-color: #1e813f;
+}
+
+.tree{
+    width: 100%;height: 4em;
+    background-color: #a89063;
+}
+
+.lake{
+    width: 100%;height: 4em;
+    background-color: #61abf0;
+}
+
+.breeze{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #78c0dd;
+}
+/* ---------------------------------------- */
+/* Starts paradise-sky */
+
+.paradise-sky{
+    position: absolute;
+    top: 990px;left: 410px;
+    width: 300px;
+    height: 340px;
+}
+
+.rain{
+    width: 100%;height: 4em;
+    background-color: #7051a8;
+}
+.cloud{
+    width: 100%;height: 4em;
+    background-color: #71bdb7;
+}
+
+.shade{
+    width: 100%;height: 4em;
+    background-color: #612838;
+}
+
+.mercy{
+    width: 100%;height: 4em;
+    background-color: #81b98a;
+}
+.weep{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #13131b;
+}
+/* --------------------------------------- */
+/* starts Special Gold */
+
+.special-pack1{
+    position: absolute;
+    top: 990px;left: 799px;
+    width: 300px;
+    height: 340px;
+}
+
+.gold{
+    width: 100%;height: 6.3em;
+    background-color: #d3ab3c;
+}
+
+.silver{
+    width: 100%;height: 6.3em;
+    background-color: #8081b6;
+}
+.ruby{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 7em;
+    background-color: #3f0a16;
+}
+/* ----------------------------------------- */
+/* Starts special-pack2 */
+.special-pack2{
+    position: absolute;
+    top: 990px;left: 1197px;
+    width: 300px;
+    height: 340px;
+
+}
+
+.diamond{
+    width: 100%;height: 6.3em;
+    background-color: #bdc8cc;
+}
+.platinum{
+    width: 100%;height: 6.3em;
+    background-color: #231c2c;
+}
+
+.whitegold{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 7em;
+    background-color: #cfbb9b;
+}
+/* ------------------------------------- */
+/* Starts rocks */
+.rocks{
+    position: absolute;
+    top: 1430px;left: 20px;
+    width: 300px;
+    height: 340px;
+}
+.ocean-rocks{
+    width: 100%;height: 4em;
+    background-color: #60718D;
+}
+.mountain-rocks{
+    width: 100%;height: 4em;
+    background-color: #4D4D4F;
+}
+.ocean-pearl{
+    width: 100%;height: 4em;
+    background-color: #A7A9AC;
+}
+
+.snow-rocks{
+    width: 100%;height: 4em;
+    background-color: #809EAD;
+}
+
+.red-rocks{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 4em;
+    background-color: #572114;
+}
+/* --------------------------------------- */
+/* Starts Divine-food */
+.divine-food{
+    position: absolute;
+    top: 1430px;left: 410px;
+    width: 300px;
+    height: 340px;
+
+}
+.honey{
+    width: 100%;height: 6.3em;
+    background-color: #994a01;
+}
+.anjeer{
+    width: 100%;height: 6.3em;
+    background-color: #41150d;
+}
+
+.kalonji{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 7em;
+    background-color: #090713;
+}
+/* ---------------------------------------- */
+/* Starts flora */
+.flora{
+    position: absolute;
+    top: 1430px;left: 799px;
+    width: 300px;
+    height: 340px;
+}
+.flora1{
+    width: 100%;height: 6.3em;
+    background-color: #EA7E73;
+}
+
+.flora2{
+    width: 100%;height: 6.3em;
+    background-color: #456B4D;
+}
+
+.flora3{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 7em;
+    background-color: #7A9072;
+}
+/* ------------------------------------------- */
+/* Starts Fauna */
+.fauna{
+    position: absolute;
+    top: 1430px;left: 1197px;
+    width: 300px;
+    height: 340px;
+}
+.fauna1{
+    width: 100%;height: 6.3em;
+    background-color: #3F2500;
+}
+.fauna2{
+    width: 100%;height: 6.3em;
+    background-color: #004B23;
+}
+.fauna3{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 7em;
+    background-color: #AA962E;
+}
+/* ------------------------------------------ */
+
+/* starts darkshades */
+
+.darkshades{
+    position: absolute;
+    top: 1865px;left: 20px;
+    width: 300px;
+    height: 340px;
+}
+
+.dark1{
+    width: 100%;height: 6.4em;
+    background-color: #231F20;
+}
+.dark2{
+    width: 100%;height: 6.3em;
+    background-color: #3A3629;
+}
+.dark3{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 7em;
+    background-color: #3B444A;
+}
+
+/* ------------------------------------ */
+/* Starts Light shades */
+
+.lightshades{
+    position: absolute;
+    top: 1865px;left: 1197px;
+    width: 300px;
+    height: 340px;
+}
+
+.light1{
+    width: 100%;height: 6.4em;
+    background-color: #adc4d3;
+}
+.light2{
+    width: 100%;height: 6.4em;
+    background-color: #acdaba;
+}
+.light3{
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;height: 7em;
+    background-color: #d4cbb6;
+}
+.ads{
+    box-shadow: 2px 3px 9px #000;
+    background-image: url("images/pen.jpg");
+    background-position: center;
+    background-size: 100px 100px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    animation-delay: 2s;
+    transition: all ease 2s;
+    position: absolute;
+    top: 2040px;left: 560px;
+    width: 410px;
+    background-color: #fcfbdf;
+    height: 90px;}
+
+    footer{
+        margin-top:90px;
+        font-weight: 600;
+        font-family: serif;
+        top: 1490px;
+        position: relative;
+        width: 100%;
+        height: 90px;
+        font-size: 19px;
+        background-color: #7f00f7;
+    }
+
+    p.copyrights{
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #fff;
+        font-size: 19px;
+        padding-top: 40px;
+        width: 100%;height: 40px;
+        margin:0px auto 0px auto ;
+
+    }

@@ -1,0 +1,402 @@
+#shades{
+    box-sizing: border-box;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: #f8f8f8;
+}
+header{
+    width: 100%;
+    height: 10vh;
+}
+
+.blueshades{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+p{
+    width: 100%;
+    height: fit-content;
+    border-radius: 2px solid black;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:  #fff;
+}
+
+.deepblue{
+    width: 10%;
+    background-color: #020120;
+}
+.navyblue{
+    width: 10%;
+    background-color: #060446;
+}
+.skiblue{
+    width: 10%;
+    background-color: #0c0a79;
+}
+.rowblue{
+    width: 10%;
+    background-color: #0502d1;
+}
+.colblue{
+    width: 10%;
+    background-color: #0702ff;
+}
+.bagblue{
+    width: 10%;
+    background-color: #6e6cff;
+}
+
+.maiblue{
+    width: 10%;
+    background-color: #bebdff;
+}
+
+.yellowshades{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.deepyellow{
+    width: 10%;
+    background-color: #dabb0b;
+}
+.merayellow{
+    width: 10%;
+    background-color: #ffd900;
+}
+.uskayellow{
+    width: 10%;
+    background-color: #ffeb3a;
+}
+.unkayellow{
+    width: 10%;
+    background-color: #fdf03b;
+}
+.taoyellow{
+    width: 10%;
+    background-color: #fff457;
+}
+.phuppiyellow{
+    width: 10%;
+    background-color: #fff67b;
+}
+.khalayellow{
+    width: 10%;
+    background-color: #fff8a6;
+}
+
+.redshades{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.darkred{
+    width: 10%;
+    background-color: #410000;
+}
+.merared{
+    width: 10%;
+    background-color: #5f0000;
+}
+
+.terared{
+    width: 10%;
+    background-color: #750000;
+}
+
+.uskared{
+    width: 10%;
+    background-color: #8d0000;
+}
+
+.unkared{
+    width: 10%;
+    background-color: #a70000;
+}
+
+.chotured{
+    width: 10%;
+    background-color: #b90e0e;
+}
+
+.phikared{
+    width: 10%;
+    background-color: #ff4040;
+}
+
+.greenshades{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.deepgreen{
+    width: 10%;
+    background-color: #093500;
+}
+.meragreen{
+    width: 10%;
+    background-color: #106300;
+}
+.teragreen{
+    width: 10%;
+    background-color: #168600;
+}
+.uskagreen{
+    width: 10%;
+    background-color: #1eb300;
+}
+.unkagreen{
+    width: 10%;
+    background-color: #22ce00;
+}
+.chotugreen{
+    width: 10%;
+    background-color: #25dd00;
+}
+.phikagreen{
+    width: 10%;
+    background-color: #53ff31;
+}
+
+.voiletshades{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.deepvoilet{
+    width: 10%;
+    background-color: #1d002b;
+}
+.meravoilet{
+    width: 10%;
+    background-color: #310049;
+}
+.teravoilet{
+    width: 10%;
+    background-color: #450068;
+}
+
+.uskavoilet{
+    width: 10%;
+    background-color: #5b0088;
+}
+.unkavoilet{
+    width: 10%;
+    background-color: #6c00a1;
+}
+
+.chotuvoilet{
+    width: 10%;
+    background-color: #9000d8;
+}
+
+.phikavoilet{
+    width: 10%;
+    background-color: #bf43fd;
+}
+
+.pinkshades{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.deeppink{
+    width: 10%;
+    background-color: #9e005c;
+}
+.merapink{
+    width: 10%;
+    background-color: #b6016a;
+}
+
+.terapink{
+    width: 10%;
+    background-color: #cf037a;
+}
+.uskapink{
+    width: 10%;
+    background-color: #ff0095;
+}
+.unkapink{
+    width: 10%;
+    background-color: #ff1da1;
+}
+
+.chotupink{
+    width: 10%;
+    background-color: #ff3aad;
+}
+.phikapink{
+    width: 10%;
+    background-color: #ff62be;
+}
+
+.orangeshades{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.deeporange{
+    width: 10%;
+    background-color: #a14900;
+}
+.meraorange{
+    width: 10%;
+    background-color: #be5703;
+}
+.teraorange{
+    width: 10%;
+    background-color: #d66000;
+}
+
+.uskaorange{
+    width: 10%;
+    background-color: #e96900;
+}
+.unkaorange{
+    width: 10%;
+    background-color: #ff821c;
+}
+
+.chotuorange{
+    width: 10%;
+    background-color: #fa9543;
+}
+.phikaorange{
+    width: 10%;
+    background-color: #fda55d;
+}
+
+.blackshades{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.deepblack{
+    width: 10%;
+    background-color: #000000; 
+}
+.merablack{
+    width: 10%;
+    background-color: #292828;
+}
+.terablack{
+    width: 10%;
+    background-color: #474747;
+}
+.uskablack{
+    width: 10%;
+    background-color: #6e6d6d
+}
+.unkablack{
+    width: 10%;
+    background-color: #818181;
+}
+.chotublack{
+    width: 10%;
+    background-color: #a8a8a8;
+
+}
+
+.phikablack{
+    width: 10%;
+    background-color: #d4d4d4;}
+
+    .cyanshades{
+        margin: 100px 0px 0px 0px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        text-align: center;  
+        margin-bottom:100px ;  
+    }
+
+    .deepcyan{
+        width: 10%;
+    background-color: #00867b;    
+    }
+
+    .meracyan{
+        width: 10%;
+        background-color: #08968a;
+    }
+    .teracyan{
+        width: 10%;
+        background-color: #00bdad;
+    }
+    .uskacyan{
+        width: 10%;
+        background-color: #0dcebe;
+    }
+    .unkacyan{
+        width: 10%;
+        background-color: #13e9d7;
+    }
+    .chotucyan{
+        width: 10%;
+        background-color: #37fded;
+    }
+    .phikacyan{
+        width: 10%;
+        background-color: #77fdf2;
+    }
+#copyshades{
+    justify-content: center;
+    display: flex;color: whitesmoke;
+    background-color: #7f00f7;
+        font-size: medium;
+        padding: 10px;
+        width: 100%;height: 100px;
+        margin:0px auto 0px auto ;
+        margin-top: 70px;
+}
+b{
+    font-size: 19px;
+    margin-top:35px ;
+}
+
+#shades{
+    color: #fff;
+    background-color: #7f00f7;
+}
+#shades:hover{
+    background-color: #fff;
+    color:#7f00f7 ;
+}

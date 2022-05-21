@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Redressed&family=Supermercado+One&family=Ubuntu:wght@300&display=swap');
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Redressed', cursive;
+font-family: 'Supermercado One', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+/* Fonts Used */
+
+:root{
+    /* background Color */
+    --primary-color:  #FF8C32;
+    --secondary-color:#091020;
+    --bg-dark-blue:#06113C ;
+    --main-font: 'Ubuntu', sans-serif;
+    --bg-white:#fff;
+    --grey-color:#a8a8a8;
+    --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #1f6bee 100%);
+    --gradient-text:linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, var(--primary-color) 79.69%);
+
+
+    /* Text Color */
+    --primary-font:  'Ubuntu', sans-serif;
+    --primary-text:#FF8C32;
+    --text-grey:#a8a8a8;
+    --text-white:#fff;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+
+    width: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--bg-dark-blue);
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+}
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
+
+    -webkit-appearance: none;
+    margin: 0px;
+}
+
+section{
+    padding: 50px  0;
+}
+
+.main-btn{
+    display: inline-block;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    padding: 10px 26px;
+    background-color: transparent;
+    border: 2px solid var(--grey-color);
+    color: var(--text-white);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.main-btn:hover{
+    background-color: var(--primary-color);
+    border-color:var(--primary-color);
+    color: var(--text-white);
+}
+
+h1{
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: 800;
+    color: var(--text-white);
+    padding-bottom:60px ;
+}
+
+h1 span{
+    letter-spacing: 3px;
+    text-shadow: 3px 5px 4px #000;
+    font-size: 100px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+span#name{
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: #1c99fe;
+}
+
+b{
+    height: auto;
+    padding: 20px;
+}
+b:first-letter{
+    font-size: 100px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: var(--text-white);
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-white);
+    margin-bottom:19px ;
+}
+
+h6{
+    padding-bottom:10px;
+    justify-content: center;
+    text-align: left;
+    font-size: 90px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    color: var(--text-grey);
+    margin: 2px auto 20px auto;}
+
+
+
+p{
+    color: var(--text-grey);
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.subtitle{
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input:hover,input:focus,textarea:focus,textarea:hover,button{
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+
+.header-menu .navbar{
+    padding: 15px 0px;
+    -webkit-transition:all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.header-menu .navbar-brand img{
+    max-width: 50px;
+    height: auto;
+}
+
+.navbar-toggler{
+    border: none;
+    color: var(--grey-color);
+    line-height: 2;
+}
+
+.header-menu .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.header-menu .nav-item{
+    margin: 0px 10px;
+}
+
+.header-menu .nav-link{
+    /* position relative for underline effect in nav-link */
+    position: relative; 
+    font-size: 16px;
+    color: var(--text-grey);
+    font-weight: 500;
+    display: inline-block;
+}
+
+.header-menu .nav-item .nav-link::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FF8C32;
+    transition: .3s;
+    bottom: 0;
+}
+.header-menu .nav-item .nav-link.active::after,.header-menu .nav-item .nav-link:hover::after{
+    width: 100%;
+}
+
+.header-menu .nav-item .nav-link.active,.header-menu .nav-item .nav-link:hover{
+    color: var(--text-white);
+}
+
+.header-scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-dark-blue);
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
+    -webkit-box-shadow:0 4px 6px 0 rgba(12, 0, 46, .05);
+
+}
+
+.header-scrolled .nav-item .nav-link.active,
+.header-scrolled .nav-item .nav-link:hover{
+    color: var(--primary-text);
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,.4)), url(../images/demo2.png);
+    background-repeat:no-repeat ;
+    background-size:auto;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 200px 0px 100px 0px;
+}
+
+.about-me ul.nav-pills{
+    border:1px solid var(--grey-color);
+    border-radius:50px;
+}
+.about-me ul li .nav-link{
+    border-radius:50px;
+    font-size:15px;
+    font-weight:bold;
+    transition:all .4s cubic-bezier(0,0,0.2,1);
+    display: inline-block;
+    color: var(--text-grey);
+    border: 0;
+}
+
+.about-me ul li .nav-link:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.about-me ul li .nav-link:active{
+    background-color: var(--primary-color);
+}
+
+.about-me .single-progress{
+    margin-top:26px;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-me .single-progress .progress{
+    height: 4px;
+    border-radius:4px;
+    box-shadow: none;
+    background-color: var(--bg-white);
+    overflow: visible;
+}
+
+.about-me .single-progress .progress .progress-bar{
+    background-image: var(--gradient-color);
+}
+
+.about-me .single-progress span{
+text-align: left;
+}
+
+.about-me .single-progress .lebel{
+    position:absolute;
+    right:0;
+    top:0;
+    color:var(--text-grey);
+    font-size: 14px;
+}
+
+.about-me .tab-pane li{
+    color:var(--grey-color);
+    font-size:16px;
+    margin-bottom:20px;
+    font-weight: 300;
+    list-style: none;
+}
+
+
+.services-me .card{
+    background-color:var(--bg-dark-blue);
+    cursor:pointer;
+    transition: transform 0.63s cubic-bezier(.05,.2,.1,1);
+    box-shadow:0.65s cubic-bezier(.05,0.2, .1,1);
+}
+
+.services-me .card:hover{
+    box-shadow: 0px 2px 70px 0 rgb(253 71 102 / 5%);
+    transform: translateY(-5px);
+}
+
+.adjust{
+    padding-bottom:10px;
+}
+
+.portfolio-me .card{
+    width:100%;
+    min-height:280px;
+    overflow:hidden;
+    border:1px solid var(bg-white);
+    box-shadow: 0 0 16px 4px var(--bg-dark-blue);
+
+}
+
+.portfolio-me .card span a img{
+width:100%;
+height: auto;
+background-size: cover;}
+
+.contact-me .form-controls, 
+.contact-me  textarea{
+    width:100%;
+    background-color: transparent;
+    border-color: var(--grey-color);
+    color:var(--text-grey);
+    font-size: 15px;
+    font-weight: 400;
+    padding:10px 20px;
+
+}
+
+.contact-me .form-controls:hover, .contact-me .textarea:hover,.contact-me .form-controls:focus, .contact-me .textarea:focus{
+border-color: var(--primary-color);
+color:var(--text-white);
+}
+
+.call-detailes{
+    color: var(--text-white);
+}
+
+.contact-me .call-detailes a{
+
+    font-weight: 700;
+    color: var(--text-grey);
+}
+
+
+.footer-me {
+    font-size: 12px;background-color: var(--bg-dark-blue);
+padding:2px 0px;   
+}
+
+.footer-me .footer-image img{
+    padding-top:20px;
+    width:40px;
+    height: auto;
+}
+.footer-me .social-icon li{
+    margin: 8px;
+}
+.footer-me .social-icon a{
+line-height: 30px;
+font-size: 15px;
+width: 35px;
+height: 35px;
+display: inline-block;
+border:2px solid var(--text-grey);
+color:var(--text-grey);
+text-align:center;
+border-radius:100%;
+transition:all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.footer-me .copyandterms p{
+    font-size:12px;
+    line-height:20px;
+}
+
+.footer-me .social-icon a:hover{
+    background-color:var(--primary-color);
+    color:var(--text-white);
+    box-shadow:0 10px 15px 0 rgb(0 0 0 / 10%);
+    transform:translateY(-3px);
+    border-color: var(--primary-color);
+}
+
+.footer-me .copyandterms a{
+    word-spacing: 3px;
+    color:var(--primary-color);
+    text-decoration:none;
+}

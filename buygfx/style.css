@@ -1,0 +1,185 @@
+body{
+
+
+    font-size: 90%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: .15em;
+    background-color: #70727281;
+}
+
+#page{
+    max-width: 940px;
+    min-width: 570px;
+    margin: 50px auto 10px auto;
+    padding: 20px;
+    border: 4px double #000;
+    background-color: #fff;
+}
+
+.logo{
+    
+    border:2px solid #801414;
+    border-radius: 3em 8em 6em 8em/7em 3em 6em 3em;
+    width: 150px;
+    margin: 10px auto 25px auto;
+}
+
+.logo:hover{
+    color: #003bdf;
+}
+
+ul{
+    width: 800px;
+    padding: 15px;
+    margin: 10px auto 10px auto;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+li{font-size: larger;
+    display: inline;
+    list-style: none;
+    margin: 0px 7px;
+}
+
+a.nav{
+    font-weight: 900;
+    color: #000;
+    text-decoration: none;
+}
+
+a.nav:hover{
+    background-color: #000000;
+    color: #efefef;
+}
+
+.mess{
+    text-align: center;
+    align-items: center;
+    font-size: 120%;
+    width: 600px;
+    margin: 0px auto 0px auto;
+}
+div.container1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+div.container2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+div.flat1{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    font-size: 200%;
+    color: rgb(27, 216, 27);
+    width: 200px;height: 200px;
+    background-image: url('flat1.jpg');
+    background-size: cover;background-position: center;background-repeat: no-repeat;
+}
+
+b.price{
+    background-color: #fff;
+    height: fit-content;
+    border: 2px solid rgb(6, 175, 0);
+    font-size:90% ;
+}
+
+a.buy{
+    color: #000;
+    margin-top:100% ;
+    text-align: center;
+    text-decoration: none;
+}
+
+b.price:hover{
+    
+    background-color: chartreuse;
+}
+
+div.flat2{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(27, 216, 27);
+    width: 200px;height: 200px;
+    background-image: url('flat2.jpg');
+    background-size: cover;background-position: center;background-repeat: no-repeat;
+}
+
+div.flat3{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(27, 216, 27);
+    width: 200px;height: 200px;
+    background-image: url('flat3.jpg');
+    background-size: cover;background-position: center;background-repeat: no-repeat;
+}
+
+div.flat4{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(27, 216, 27);
+    width: 200px;height: 200px;
+    background-image: url('flat4.jpg');
+    background-size: cover;background-position: center;background-repeat: no-repeat;
+}
+div.flat5{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(27, 216, 27);
+    width: 200px;height: 200px;
+    background-image: url('flat5.jpg');
+    background-size: cover;background-position: center;background-repeat: no-repeat;
+}
+div.flat10{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(27, 216, 27);
+    width: 200px;height: 200px;
+    background-image: url('flat10.jpg');
+    background-size: cover;background-position: center;background-repeat: no-repeat;
+}
+
+div.flat6{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(27, 216, 27);
+    width: 200px;height: 200px;
+    background-image: url('flat6.jpg');
+    background-size: cover;background-position: center;background-repeat: no-repeat;
+}
+
+div.flat7{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(27, 216, 27);
+    width: 200px;height: 200px;
+    background-image: url('flat7.jpg');
+    background-size: cover;background-position: center;background-repeat: no-repeat;
+}
